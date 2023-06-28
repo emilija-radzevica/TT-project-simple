@@ -1,3 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: blueviolet;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.navigation {
+    background-color: bisque;
+    width: 50%;
+}
+.nav_buttons {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login {
+    background-color: black;
+    width: 50%;
+}
+.log_buttons {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+}
 h1 {
-    color: brown;
+    background-color: burlywood;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+section {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.filters {
+    background-color: chartreuse;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product {
+    background-color: chocolate;
+    width: 80%;
+}
+.one_char {
+    background-color: aliceblue;
+    width: 20%;
+    margin: 5% 10% 5% 10%;
+}
+.cover {
+    position: relative;
+}
+.cover img {
+    width: 100%;
+}
+.char_info {
+    background-color: cornflowerblue;
+    padding: 2% 5% 2% 5%;
+}
+footer {
+    background-color: crimson;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
